@@ -55,7 +55,7 @@ class CustomButton: UIView {
     // MARK: - Set Button BackgroundImage
     func setBackgroundImage(_ image: UIImage?) {
         imageView.image = image
-        sendSubviewToBack(imageView)
+        sendSubview(toBack: imageView)
     }
     
     // MARK: - Add Target using UIGestureRecognizer
